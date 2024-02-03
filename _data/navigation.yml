@@ -1,12 +1,73 @@
 # main links
 main:
-  - title: "Compilation"
-    url: /compilation
+  - title: "Library"
+    url: /library
   - title: "Blog"
     url: /blog
   - title: "CV"
     url: /cv
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+### Library
+# library:
+#   - title: "DFIR"
+#     url: /library/dfir/
+#   - title: "Pentesting"
+#     url: /library/pentesting
+#     children:
+#     - title: "Metasploit"
+#       url: /library/pentesting/metasploit/
+#       # children:
+#       #   - title: "Generating a meterpreter binary"
+#       #     url: /library/pentesting/metasploit/meterpreter-binary-creation
+#       #   - title: "Meterpreter GETSYSTEM for Privesc"
+#       #     url: /library/pentesting/metasploit/meterpreter-getsystem-privesc
+#     - title: Linux Vulnerabilities
+#       url: /library/pentesting/linux-vulnerabilities/
+#       # children:
+#       #   - title: "Misconfigured SUDO Permissions"
+#       #     url: /library/pentesting/linux-vulnerabilities/misconfigured-sudo-permissions
+#       #   - title: "Misconfigured SUID Binaries"
+#       #     url: /library/pentesting/linux-vulnerabilities/misconfigured-suid-binaries
+#     - title: "Mimikatz"
+#     - title: "Burpsuite"
+
+
+### DFIR
+dfir:
+  - title: "DFIR"
+    url: /library/dfir
+    children:
+    - title: "Tools"
+      url: /library/dfir/tools
+    - title: "Digital Forensics"
+      url: /library/dfir/forensics
+  
+
+### Pentesting
+pentesting:
+  - title: "Pentesting"
+    url: /library/pentesting/
+    children:
+    - title: "Metasploit"
+      url: /library/pentesting/metasploit/
+    - title: "Linux Vulnerabilities"
+      url: /library/pentesting/linux-vulnerabilities/
+
+metasploit:
+  - title: "Metasploit"
+    url: /library/pentesting/metasploit/
+    children:
+    - title: "Generating a meterpreter binary"
+      url: /library/pentesting/metasploit/meterpreter-binary-creation
+    - title: "Meterpreter GETSYSTEM for Privesc"
+      url: /library/pentesting/metasploit/meterpreter-getsystem-privesc
+
+linux-vulnerabilities:
+  - title: "Linux Vulnerabilities"
+    url: /library/pentesting/linux-vulnerabilities/
+    children:
+    - title: "Misconfigured SUDO Permissions"
+      url: /library/pentesting/linux-vulnerabilities/misconfigured-sudo-permissions
+    - title: "Misconfigured SUID Binaries"
+      url: /library/pentesting/linux-vulnerabilities/misconfigured-suid-binaries
+    
