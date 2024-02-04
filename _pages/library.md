@@ -8,12 +8,6 @@ classes: wide
 #     nav: "library"
 ---
 
-Welcome to my random knowledge-base library!
+chris-zbga library
 
-### Topics
-
-<!-- {% include nav_list nav="dfir" %} -->
-{% include nav_list nav="pentesting" %}
-
-<!-- - [Digital Forensics and Incident Response](/library/dfir)
-- [Penetration Testing](/library/dfir) -->
+Go to: https://toff333.github.io/
