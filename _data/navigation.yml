@@ -2,8 +2,10 @@
 main:
   - title: "Home"
     url: /
+  - title: "Projects"
+    url: /projects
   - title: "Library"
-    url: /library
+    url: https://toff333.github.io/
   - title: "Blog"
     url: /blog
   - title: "CV"
